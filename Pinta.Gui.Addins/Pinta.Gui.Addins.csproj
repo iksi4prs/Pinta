@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <PackageReference Include="GirCore.Adw-1" />
     <PackageReference Include="Mono.Addins" />
     <PackageReference Include="Mono.Addins.Setup" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Adw-1\Adw-1.csproj" />
     <ProjectReference Include="..\Pinta.Core\Pinta.Core.csproj" />
   </ItemGroup>
 </Project>

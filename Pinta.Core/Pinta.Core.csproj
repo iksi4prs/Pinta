@@ -5,11 +5,21 @@
   <ItemGroup>
     <PackageReference Include="NGettext" />
     <PackageReference Include="ParagonClipper" />
-    <PackageReference Include="GirCore.Adw-1" />
-    <PackageReference Include="GirCore.PangoCairo-1.0" />
     <PackageReference Include="Mono.Addins" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Adw-1\Adw-1.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\cairo-1.0\cairo-1.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\freetype2-2.0\freetype2-2.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Gdk-4.0\Gdk-4.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\GdkPixbuf-2.0\GdkPixbuf-2.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Gio-2.0\Gio-2.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\GLib-2.0\GLib-2.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\GObject-2.0\GObject-2.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Graphene-1.0\Graphene-1.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Gtk-4.0\Gtk-4.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\Pango-1.0\Pango-1.0.csproj" />
+    <ProjectReference Include="..\..\GirCore\gir.core\src\Libs\PangoCairo-1.0\PangoCairo-1.0.csproj" />
     <ProjectReference Include="..\Pinta.Resources\Pinta.Resources.csproj" />
   </ItemGroup>
 </Project>
